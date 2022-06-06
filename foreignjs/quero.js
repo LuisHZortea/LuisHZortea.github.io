@@ -6,7 +6,7 @@ function salvar(){
     var cpf = document.getElementById("cpf").value
     var adress = document.getElementById("adress").value
     var morador = document.getElementById("morador").value
-    var personaimg = document.getElementById("perfil").value
+    var perfilimg = document.getElementById("perfilimg").value
   
     localStorage.setItem("user", nome)
     localStorage.setItem("firstage", age)
@@ -15,7 +15,7 @@ function salvar(){
     localStorage.setItem("cpf", cpf)
     localStorage.setItem("adress", adress)
     localStorage.setItem("morador", morador)
-    localStorage.setItem("perfil", perfil)
+    localStorage.setItem("perfil", perfilimg)
   
     location.replace("https://luishzortea.github.io/foreignhtml/final.html")
   }
