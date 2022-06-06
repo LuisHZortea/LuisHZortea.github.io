@@ -7,6 +7,14 @@ html, body {
   width: 100%;
 }
 
+titulo{
+  #title1 {
+    text-align: center;
+    width:500px;
+    height:45px;
+    background: whitesmoke;
+  }
+
 #b{
   text-align: center;
 }
