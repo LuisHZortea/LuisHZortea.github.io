@@ -28,6 +28,5 @@ function salvar(){
     document.getElementById('cpf').value = ''
     document.getElementById('adress').value = ''
     document.getElementById('morador').value = ''
-    document.getElementById('about').value = ''
     document.getElementById('perfil').src = '/perfil.png'
   }
