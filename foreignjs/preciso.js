@@ -6,7 +6,6 @@ function salvar() {
   var son = document.getElementById("son").value
   var sex = document.getElementById("sex").value
   var sonage = document.getElementById("sonage").value
-  var about = document.getElementById("about").value
   var personaimg = document.getElementById("perfil").value
 
   localStorage.setItem("user", nome)
@@ -16,7 +15,6 @@ function salvar() {
   localStorage.setItem("son", son)
   localStorage.setItem("sex", sex)
   localStorage.setItem("secondage", sonage)
-  localStorage.setItem("aboutext", about)
   localStorage.setItem("perfil", perfil)
 
   location.replace("https://luishzortea.github.io/foreignhtml/final.html")
@@ -30,6 +28,5 @@ function redefinir() {
   document.getElementById('son').value = ''
   document.getElementById('sex').value = ''
   document.getElementById('sonage').value = ''
-  document.getElementById('about').value = ''
   document.getElementById('perfil').src = 'perfil.png'
 }
