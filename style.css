@@ -7,7 +7,7 @@ html, body {
   width: 100%;
 }
 
-#titulo {
+.titulo {
     text-align: center;
     width:500px;
     height:35px;
