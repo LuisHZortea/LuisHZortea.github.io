@@ -14,7 +14,6 @@ function salvar(){
     localStorage.setItem("cpf", cpf)
     localStorage.setItem("adress", adress)
     localStorage.setItem("morador", morador)
-    localStorage.setItem("perfil", perfilimg)
   
     location.replace("https://luishzortea.github.io/foreignhtml/final.html")
   }
