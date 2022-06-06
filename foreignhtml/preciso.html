@@ -9,7 +9,7 @@
 <body>
   <div>
     <center>
-    <h1 id="title1">Cadastro</h1>
+    <h1 id="titulo">Cadastro</h1>
     </center>
   </div>
   
@@ -27,12 +27,12 @@
       <div>Idade: <input type="number" name="sonage" id="sonage"></div>
     </div>
   </div>
-  <div id="inputimg">
+  <div>
     <input type="file" id="img" name="img" accept="image/*"
       onchange="document.getElementById('perfil').src = window.URL.createObjectURL(this.files[0])"><br>
   </div>
-  <div id="buttons">
-    <button onclick="salvar()" id="savebutton">SALVAR</button><br>
+  <div id="botoes">
+    <button onclick="salvar()" id="salve">SALVAR</button><br>
     <button onclick="redefinir()">Redefinir</a>
   </div>
   <script src="/foreignjs/preciso.js"></script>
