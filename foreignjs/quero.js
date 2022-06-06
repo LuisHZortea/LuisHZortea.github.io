@@ -6,7 +6,6 @@ function salvar(){
     var cpf = document.getElementById("cpf").value
     var adress = document.getElementById("adress").value
     var morador = document.getElementById("morador").value
-    var perfilimg = document.getElementById("perfilimg").value
   
     localStorage.setItem("user", nome)
     localStorage.setItem("firstage", age)
@@ -28,5 +27,4 @@ function salvar(){
     document.getElementById('cpf').value = ''
     document.getElementById('adress').value = ''
     document.getElementById('morador').value = ''
-    document.getElementById('perfilimg').src = '/perfil.png'
   }
