@@ -28,5 +28,5 @@ function salvar(){
     document.getElementById('cpf').value = ''
     document.getElementById('adress').value = ''
     document.getElementById('morador').value = ''
-    document.getElementById('perfil').src = '/perfil.png'
+    document.getElementById('perfilimg').src = '/perfil.png'
   }
