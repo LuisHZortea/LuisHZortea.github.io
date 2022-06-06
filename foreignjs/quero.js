@@ -19,7 +19,7 @@ function salvar(){
     localStorage.setItem("aboutext", about)
     localStorage.setItem("perfil", perfil)
   
-    location.replace("")
+    location.replace("https://luishzortea.github.io/foreignhtml/final.html")
   }
   
   function redefinir(){
