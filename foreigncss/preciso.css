@@ -2,7 +2,7 @@ body{
   background-color: #B7B7B7;
 }
 
-#title1 {
+#titulo {
   text-align: center;
   width:500px;
   height:45px;
@@ -13,12 +13,12 @@ body{
   display: flex;
 }
 
-#savebutton {
+#salve {
   font-size: 200%;
   width: auto;
 }
 
-#buttons{
+#botoes{
   text-align: center;
 }
 
