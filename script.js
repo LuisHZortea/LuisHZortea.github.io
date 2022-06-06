@@ -1,7 +1,7 @@
 function preciso(){
-  location.replace("https://github.com/LuisHZortea/LuisHZortea.github.io/blob/main/foreignhtml/preciso.html")
+  location.replace("https://luishzortea.github.io/foreignhtml/preciso.html")
 }
 
 function quero(){
-  location.replace("https://github.com/LuisHZortea/LuisHZortea.github.io/blob/main/foreignhtml/quero.html")
+  location.replace("https://luishzortea.github.io/foreignhtml/quero.html")
 }
