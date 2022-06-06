@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
 
+<head>
+  <title>ONG da Salvação</title>
+  <link href="preciso.css" rel="stylesheet" type="text/css" 
+</head>
+
+<body>
+  <div>
+    <center>
+    <h1 id="title1">Cadastro</h1>
+    </center>
+  </div>
+  
+  <div class="flexbox">
+    <img src="perfil.png" width="200" height="200"><br>
+    <div class="container">
+      <br>
+      <div>Nome: <input type="text" name="nome" id="nome"></div>
+      <div>Idade: <input type="number" name="age" id="age"></div>
+      <div>Línguas Faladas: <input type="text" name="lang" id="lang"></div>
+      <div>Tempo de permanência: <input type="text" name="time" id="time"></div>
+      <br>
+      <div>Filhos (opcional): <input type="text" name="son" id="son"></div>
+      <div>Sexo: <input type="text" name="sex" id="sex"></div>
+      <div>Idade: <input type="number" name="sonage" id="sonage"></div>
+    </div>
+  </div>
+  <div id="inputimg">
+    <input type="file" id="img" name="img" accept="image/*"
+      onchange="document.getElementById('perfil').src = window.URL.createObjectURL(this.files[0])"><br>
+  </div>
+  <div id="buttons">
+    <button onclick="salvar()" id="savebutton">SALVAR</button><br>
+    <button onclick="redefinir()">Redefinir</a>
+  </div>
+  <script src="/foreignjs/preciso.js"></script>
+</body>
+
+</html>
