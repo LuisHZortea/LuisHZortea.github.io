@@ -9,7 +9,7 @@
 <body>
   <div>
     <center>
-    <h1 id="title1">Quero Ajudar</h1>
+    <h1 id="titulo">Quero Ajudar</h1>
   </center>
   </div>
   <div class="flexbox">
@@ -26,12 +26,12 @@
       <div>Moradores: <input type="number" name="morador" id="morador"></div>
     </div>
   </div>
-  <div id="inputimg">
+  <div>
     <input type="file" id="img" name="img" accept="image/*"
       onchange="document.getElementById('perfil').src = window.URL.createObjectURL(this.files[0])"><br>
   </div>
-  <div id="buttons">
-    <button onclick="salvar()" id="savebutton">SALVAR</button><br>
+  <div id="botoes">
+    <button onclick="salvar()" id="salve">SALVAR</button><br>
     <button onclick="redefinir()">Redefinir</a>
   </div>
   <script src="/foreignjs/quero.js"></script>
