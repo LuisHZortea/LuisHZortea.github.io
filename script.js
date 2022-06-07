@@ -1,7 +1,7 @@
-function preciso(){
-  location.replace("https://luishzortea.github.io/foreignhtml/preciso.html")
+function registro(){
+  location.replace("https://luishzortea.github.io/foreignhtml/registro.html")
 }
 
-function quero(){
-  location.replace("https://luishzortea.github.io/foreignhtml/quero.html")
+function login(){
+  location.replace("https://luishzortea.github.io/foreignhtml/login.html")
 }
