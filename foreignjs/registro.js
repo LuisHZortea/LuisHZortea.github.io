@@ -19,14 +19,3 @@ function salvar() {
 
   location.replace("https://luishzortea.github.io/foreignhtml/final.html")
 }
-
-function redefinir() {
-  document.getElementById('nomec').value = ''
-  document.getElementById('email').value = ''
-  document.getElementById('idade').value = ''
-  document.getElementById('linguas').value = ''
-  document.getElementById('tempo').value = ''
-  document.getElementById('filhos').value = ''
-  document.getElementById('sexo').value = ''
-  document.getElementById('idadef').value = ''
-}
