@@ -1,5 +1,5 @@
 function salvar() {
-  var nome = document.getElementById("nome").value
+  var nome = document.getElementById("nomec").value
   var email = document.getElementById("email").value
   var idade = document.getElementById("idade").value
   var linguas = document.getElementById("linguas").value
@@ -8,7 +8,7 @@ function salvar() {
   var sexo = document.getElementById("sexo").value
   var idadef = document.getElementById("idadef").value
 
-  localStorage.setItem("nome", nome)
+  localStorage.setItem("nomec", nome)
   localStorage.setItem("email", email)
   localStorage.setItem("idade", idade)
   localStorage.setItem("linguas", linguas)
@@ -21,7 +21,7 @@ function salvar() {
 }
 
 function redefinir() {
-  document.getElementById('nome').value = ''
+  document.getElementById('nomec').value = ''
   document.getElementById('email').value = ''
   document.getElementById('idade').value = ''
   document.getElementById('linguas').value = ''
